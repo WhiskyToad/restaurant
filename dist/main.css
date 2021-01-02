@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+
+body {
+    background-image: url('https://thebackyardgnome.com/wp-content/uploads/2017/06/chiminea-pizza-cooking-revolutionarygardens_com.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tagLine {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: 3rem 'sigmar one';
+    color: yellow;
+    -webkit-text-stroke-color: mediumblue;
+    -webkit-text-stroke-width: 2px;
+}
+
+#logo {
+    width: 15%;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+#logoName{
+    margin-top: 2%;
+    font: 3rem 'sigmar one';
+    color: yellow;
+    -webkit-text-stroke-color: mediumblue;
+    -webkit-text-stroke-width: 2px;
+}
+
+#navBar{
+    position: absolute;
+    top: 12%;
+    right: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+#navBar li {
+    padding: 0.2em 1.5em;
+    font: 1.5em 'sigmar one';
+    color: yellow;
+    -webkit-text-stroke-color: mediumblue;
+    -webkit-text-stroke-width: 1px;
+    margin-right: 2em;
+}
+
+#navBar li:hover{
+    color: mediumblue;
+    -webkit-text-stroke-color: yellow;
+    -webkit-text-stroke-width: 1px;
+}
+
+#container {
+    width: 50%;
+    height: 50%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    opacity: 0.75;
+    font: 'sigmar one';
+    color: yellow;
+    -webkit-text-stroke-color: mediumblue;
+    -webkit-text-stroke-width: 2px;
+}
+
+#title {
+    font: 3rem 'sigmar one';
+    color: yellow;
+    -webkit-text-stroke-color: mediumblue;
+    -webkit-text-stroke-width: 2px;
+    text-align: center;
+}
+
+h3 {
+    font: 1.5rem 'sigmar one';
+    color: yellow;
+    -webkit-text-stroke-color: mediumblue;
+    -webkit-text-stroke-width: 1px;
+    text-align: left;
+}
+
+#about {
+    font: 2rem 'sigmar one';
+    color: yellow;
+    -webkit-text-stroke-color: mediumblue;
+    -webkit-text-stroke-width: 1px;
+    text-align: left;
+}
